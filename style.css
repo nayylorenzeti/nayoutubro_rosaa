@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Header */
+header {
+  height: 118px;
+  width: 100%;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.BoxLogo {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.BoxLogo img {
+  height: 100px;
+  width: 100px;
+}
+
+.BoxLogo h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  font-size: 20px;
+}
+
+/* Informativos */
+.primeiroinformativo {
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+.primeiroinformativo p {
+  width: 50%;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.primeiroinformativo img {
+  width: 50%;
+  max-width: 365px;
+  height: auto;
+}
+
+.segundoinformativo {
+  background-color: #ff69b4;
+}
+
+.segundoinformativo {
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+.segundoinformativo p {
+  width: 50%;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.segundoinformativo img {
+  width: 50%;
+  max-width: 365px;
+  height: auto;
+}
+
+/* Imagens Informativas */
+.informativos {
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+.informativos img {
+  width: 250px;
+  height: 250px;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  color: #E4EEF1;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+footer p {
+  margin: 0 5px;
+}
+
+footer img {
+  width: 105px;
+  height: 109px;
+}
+
+/* Responsividade */
+@media (max-width: 770px) {
+  header {
+    flex-direction: column;
+  }
+  .BoxLogo h1 {
+    font-size: 24px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
